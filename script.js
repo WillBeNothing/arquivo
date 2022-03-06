@@ -1,5 +1,5 @@
 function Acessar() {
-    const SenhaInput =  document.getElementById("Senha").value.toLowerCase();
+    const SenhaInput =  document.getElementById("Senha").value.toLowerCase().trim();
     console.log(SenhaInput)
    
     if (SenhaInput.length == 0) {
