@@ -19,7 +19,7 @@ function Acessar() {
         const invisible = document.getElementById("invisible")
         const html = `
             <div id="Text">
-                <h1>The Death of Elisa Pacheco Bittercourt<br />
+                <h1>The Death of Elisa Pacheco Bittencourt<br />
                 <span style="font-size:14px">A few&nbsp;months ago, the death of a girl called Elisa Pacheco, terrified all the people around the city, but, what was more weird in this case, was the fact that, there wasn&#39;t any evidence that could incriminate anyone. No clues how she died and who murdered a 16 yo girl.&nbsp;</span><br />
                 &nbsp;</h1>
 
