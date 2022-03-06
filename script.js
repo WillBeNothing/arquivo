@@ -10,9 +10,9 @@ function Acessar() {
     const RealSenha = "seita";
 
     if (SenhaInput != RealSenha) {
-        alert("The password is wrong!");
         const El  = document.getElementById("Text")
         El.parentNode.removeChild(El);
+        alert("The password is wrong!");
     } else if (SenhaInput == RealSenha) {
         const invisible = document.getElementById("invisible")
         const html = `
