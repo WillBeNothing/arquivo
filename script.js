@@ -11,7 +11,9 @@ function Acessar() {
 
     if (SenhaInput != RealSenha) {
         const El  = document.getElementById("Text")
-        El.parentNode.removeChild(El);
+        if (El) {
+            El.parentNode.removeChild(El);
+        }
         alert("The password is wrong!");
     } else if (SenhaInput == RealSenha) {
         const invisible = document.getElementById("invisible")
